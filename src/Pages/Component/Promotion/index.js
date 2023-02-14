@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { css } from '@emotion/css'
 import classNames from 'classnames'
 import NewPromotion from '../../../Assets/Images/โปรโมชั่นล่าสุด.png'
 import Promotion from '../../../Assets/Images/Carousel.png'
@@ -11,7 +10,7 @@ export default function PromotionPage() {
     const [bannerPromotion, setBannerPromotion] = useState([])
     const [proType, setProType] = useState('all')
 
-    const bannerPro = [
+    const [bannerPro] = useState([
         {
             imageUrl: Promotion,
             type: 'casino'
@@ -54,12 +53,12 @@ export default function PromotionPage() {
             type: 'lotto'
         },
 
-    ]
+    ])
 
     useEffect(() => {
         setBannerPromotionList(bannerPro)
         setBannerPromotion(bannerPro)
-    }, [])
+    }, [bannerPro])
 
     const updatePromotion = (proType) => {
         const promotionFilter = bannerPromotionList.filter(i => i.type === proType)
