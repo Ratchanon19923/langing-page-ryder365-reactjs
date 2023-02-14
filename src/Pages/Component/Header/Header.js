@@ -16,7 +16,7 @@ function Header() {
             <a href='https://game.ryder365.com/'><img src={Notification} alt="..."></img></a>
             <a href='https://game.ryder365.com/' className="pc"><img src={Line} alt="..."></img></a>
           </div>
-          <div>
+          <div className="main-header-center">
             <a href='/' ><img src={Logoryder} alt="..."></img></a>
           </div>
           <div className="pc">
