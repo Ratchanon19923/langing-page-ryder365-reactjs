@@ -12,13 +12,13 @@ import menuLotto from "../../../../Assets/Images/Lottery.png"
 function contentMenu() {
     return (
         <>
-            <div className='my-3'>
+            <div className='mt-4'>
                 <img src={menuGame} className={css`width:30%;
                         }`} alt="..." />
             </div>
             <Row justify="center" align="middle">
                 <Col xs={10} sm={8} lg={8} xl={8}>
-                    <a href="/">
+                    <a href="https://game.ryder365.com/">
                         <img src={menuSlot} className={css`width:100% ; 
                         &:hover,
                         :focus {
