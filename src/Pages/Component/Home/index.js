@@ -39,7 +39,7 @@ function Index() {
                 </div>
 
                 <Row justify="center" align="middle" className='mt-3'>
-                    <Col xs={20} lg={10} justify="center" align="middle" ><CarouselCard /></Col>
+                    <Col xs={20} lg={10}><CarouselCard /></Col>
                     <div className='mb mt-4 mx-3'>
                         <div className="d-flex align-items-center">
                             <a href='/' className='me-3'><img src={Singin} className={css`width:100%;
@@ -50,7 +50,7 @@ function Index() {
                         }`} alt="..."></img></a>
                         </div>
                     </div>
-                    <Col xs={22} lg={10} className="mb-3" justify="center" align="middle"><ContentMenu /></Col>
+                    <Col xs={22} lg={10}><ContentMenu /></Col>
                     <div className='mb mt-3 mx-3'>
 
                         <a href='/' ><img src={Line} className={css`width:100%;
