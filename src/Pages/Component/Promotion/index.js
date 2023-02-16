@@ -1,7 +1,32 @@
 import React, { useEffect, useState } from 'react'
 import classNames from 'classnames'
 import NewPromotion from '../../../Assets/Images/โปรโมชั่นล่าสุด.png'
-import Promotion from '../../../Assets/Images/Carousel.png'
+
+import PromotionCa1 from '../../../Assets/Images/Promotion/Cryder1.png'
+import PromotionCa2 from '../../../Assets/Images/Promotion/Cryder2.png'
+import PromotionCa3 from '../../../Assets/Images/Promotion/Cryder3.png'
+import PromotionCa4 from '../../../Assets/Images/Promotion/Cryder4.png'
+import PromotionCa5 from '../../../Assets/Images/Promotion/Cryder5.png'
+import PromotionCa6 from '../../../Assets/Images/Promotion/Cryder6.png'
+
+import PromotionLO1 from '../../../Assets/Images/Promotion/Loryder1.png'
+
+import PromotionSL1 from '../../../Assets/Images/Promotion/Slryder1.png'
+import PromotionSL2 from '../../../Assets/Images/Promotion/Slryder2.png'
+import PromotionSL3 from '../../../Assets/Images/Promotion/Slryder3.png'
+import PromotionSL4 from '../../../Assets/Images/Promotion/Slryder4.png'
+import PromotionSL5 from '../../../Assets/Images/Promotion/Slryder5.png'
+
+import PromotionSP1 from '../../../Assets/Images/Promotion/SPryder1.png'
+import PromotionSP2 from '../../../Assets/Images/Promotion/SPryder2.png'
+import PromotionSP3 from '../../../Assets/Images/Promotion/SPryder3.png'
+import PromotionSP4 from '../../../Assets/Images/Promotion/SPryder4.png'
+import PromotionSP5 from '../../../Assets/Images/Promotion/SPryder5.png'
+import PromotionSP6 from '../../../Assets/Images/Promotion/SPryder6.png'
+import PromotionSP7 from '../../../Assets/Images/Promotion/SPryder7.png'
+
+
+
 
 
 export default function PromotionPage() {
@@ -12,44 +37,80 @@ export default function PromotionPage() {
 
     const [bannerPro] = useState([
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionCa1,
             type: 'casino'
         },
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionCa2,
             type: 'casino'
         },
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionCa3,
             type: 'casino'
         },
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionCa4,
+            type: 'casino'
+        },
+        {
+            imageUrl: PromotionCa5,
+            type: 'casino'
+        },
+        {
+            imageUrl: PromotionCa6,
+            type: 'casino'
+        },
+        {
+            imageUrl: PromotionSP1,
             type: 'sport'
         },
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionSP2,
             type: 'sport'
         },
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionSP3,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSP4,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSP5,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSP6,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSP7,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSL1,
             type: 'slot'
         },
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionSL2,
             type: 'slot'
         },
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionSL3,
             type: 'slot'
         },
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionSL4,
             type: 'slot'
         },
 
         {
-            imageUrl: Promotion,
+            imageUrl: PromotionSL5,
+            type: 'slot'
+        },
+        {
+            imageUrl: PromotionLO1,
             type: 'lotto'
         },
 
