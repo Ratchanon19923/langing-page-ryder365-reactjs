@@ -23,7 +23,7 @@ function Header() {
           <div className="d-flex align-items-center">
             <img data-toggle="modal" data-target="#exampleModal" src={BurgerMenu} alt="..."></img>
             <a href='https://game.ryder365.com/'><img src={Notification} alt="..."></img></a>
-            <a href='https://game.ryder365.com/' className="pc"><img src={Line} alt="..."></img></a>
+            <a href='https://lin.ee/VYUt69n' className="pc"><img src={Line} alt="..."></img></a>
           </div>
           <div className="main-header-center">
             <a href='/' ><img src={Logoryder} alt="..."></img></a>
