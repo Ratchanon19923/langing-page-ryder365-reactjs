@@ -21,7 +21,7 @@ function Header() {
       <div className='bg-main-header'>
         <div className='section-main-header'>
           <div className="d-flex align-items-center">
-            <img data-toggle="modal" data-target="#exampleModal" src={BurgerMenu} alt="..."></img>
+            <img data-toggle="modal" data-target="#exampleModal" className="burgerbar" src={BurgerMenu} alt="..."></img>
             <a href='https://game.ryder365.com/'><img src={Notification} alt="..."></img></a>
             <a href='https://lin.ee/VYUt69n' className="pc"><img src={Line} alt="..."></img></a>
           </div>
