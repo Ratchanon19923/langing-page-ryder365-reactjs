@@ -1,12 +1,12 @@
 import React from 'react'
 import { Carousel } from 'antd';
-import CarouselImage1 from "../../../../Assets/Images/Promotion/Hryder1.png"
-import CarouselImage2 from "../../../../Assets/Images/Promotion/Hryder2.png"
-import CarouselImage3 from "../../../../Assets/Images/Promotion/Hryder3.png"
-import CarouselImage4 from "../../../../Assets/Images/Promotion/Hryder4.png"
-import CarouselImage5 from "../../../../Assets/Images/Promotion/Hryder5.png"
-import CarouselImage6 from "../../../../Assets/Images/Promotion/Hryder6.png"
-import CarouselImage7 from "../../../../Assets/Images/Promotion/Hryder7.png"
+import CarouselImage1 from "../../../../Assets/Images/Promotion/SPryder8.png"
+import CarouselImage2 from "../../../../Assets/Images/Promotion/SPryder9.png"
+import CarouselImage3 from "../../../../Assets/Images/Promotion/SPryder10.png"
+import CarouselImage4 from "../../../../Assets/Images/Promotion/SPryder11.png"
+import CarouselImage5 from "../../../../Assets/Images/Promotion/SPryder12.png"
+import CarouselImage6 from "../../../../Assets/Images/Promotion/Hryder1.png"
+import CarouselImage7 from "../../../../Assets/Images/Promotion/Hryder2.png"
 
 const contentStyle = {
     width: "100%",

@@ -17,14 +17,24 @@ function Index() {
     return (
         <>
             <div className='home-image'>
+                <div className='mb mt-4'>
+                    <div className="d-flex justify-content-center align-items-center">
+                        <a href='https://game.ryder365.com/register' className='me-3'><img src={Singin} className={css`width:100%;
+                      
+                        }`} alt="..."></img></a>
+                        <a href='https://game.ryder365.com/login'><img src={Login} className={css`width:100%;
+                         
+                        }`} alt="..."></img></a>
+                    </div>
+                </div>
                 <div className="mb">
                     {close === true ? <>
 
                         <div className="alert-home">
                             <div className="alert-marquee"><Alert
                                 message={
-                                    <Marquee pauseOnHover gradient={false} className="alert-message">
-                                        ยินดีต้อนรับสู่ Ryder168 เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%.
+                                    <Marquee pauseOnHover gradient={false} speed={70} className="alert-message">
+                                        เว็บพนันอันดับ 1 ที่มีครบจบที่เดียวให้นึกถึง RYDER365 เว็บพนันออนไลน์ที่มีทั้งเกมส์ กีฬา คาสิโน หวย พร้อมด้วยโปรโมชั่นมากมาย ที่รองรับการเล่นของสมาชิกทุกท่าน บริการรวดเร็วทันใจด้วยระบบ Auto แอดมินบริการ 24 ชม. ติดปัญหาส่วนใดเเจ้งแอดมินได้ตลอดเลย
                                     </Marquee>
                                 }
                             />
@@ -38,22 +48,11 @@ function Index() {
 
                 </div>
 
-                <Row justify="center" align="middle" className='mt-3'>
-                    <Col xs={20} lg={10}><CarouselCard /></Col>
-                    <div className='mb mt-4 mx-3'>
-                        <div className="d-flex align-items-center">
-                            <a href='/' className='me-3'><img src={Singin} className={css`width:100%;
-                      
-                        }`} alt="..."></img></a>
-                            <a href='/'><img src={Login} className={css`width:100%;
-                         
-                        }`} alt="..."></img></a>
-                        </div>
-                    </div>
+                <Row justify="center" align="top">
+                    <Col xs={20} lg={10} className="carousel-mb"><CarouselCard /></Col>
                     <Col xs={22} lg={10}><ContentMenu /></Col>
                     <div className='mb mt-3 mx-3'>
-
-                        <a href='/' ><img src={Line} className={css`width:100%;
+                        <a href='https://lin.ee/VYUt69n' ><img src={Line} className={css`width:100%;
                         }`} alt="..."></img></a>
 
                     </div>

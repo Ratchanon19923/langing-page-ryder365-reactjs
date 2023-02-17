@@ -45,17 +45,17 @@ function Header() {
             </div>
             <div className='modal-body'>
               <div className='session-menu-bar mb-3'>
-                <a href="/" >
+                <a href="https://game.ryder365.com/login" >
                   <img src={BurgerPlayGame} className='Burger-Image' alt="logo" />
                 </a>
 
-                <a href="/" >
+                <a href="https://game.ryder365.com/login" >
                   <img src={BurgerMoneyback} className='Burger-Image' alt="logo" />
                 </a>
 
               </div>
               <div className='session-menu-bar mb-3'>
-                <a href="/" >
+                <a href="https://game.ryder365.com/login" >
                   <img src={BurgerHistory} className='Burger-Image' alt="logo" />
                 </a>
                 <a href="/promotion" >
@@ -63,15 +63,15 @@ function Header() {
                 </a>
               </div>
               <div className='session-menu-bar mb-3'>
-                <a href="/" >
+                <a href="https://game.ryder365.com/login" >
                   <img src={BurgerAlliance} className='Burger-Image' alt="logo" />
                 </a>
-                <a href="/" className='border-session-menu-bar-2'>
+                <a href="https://game.ryder365.com/login" className='border-session-menu-bar-2'>
                   <img src={BurgerContact} className='Burger-Image' alt="logo" />
                 </a>
               </div>
               <div className='session-menu-bar mb-3'>
-                <a href="/" >
+                <a href="https://game.ryder365.com/login" >
                   <img src={BurgerDownload} className='Burger-Image' alt="logo" />
                 </a>
               </div>

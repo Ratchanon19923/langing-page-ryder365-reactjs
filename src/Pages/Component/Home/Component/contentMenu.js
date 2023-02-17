@@ -12,17 +12,12 @@ import menuLotto from "../../../../Assets/Images/Lottery.png"
 function contentMenu() {
     return (
         <>
-            <div className={css`margin: 20px auto 0 auto;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-
-    }`}>
-                <img src={menuGame} className={css`width:30%;
+            <div className="text-menu ">
+                <img src={menuGame} className={css`width:40%;
                         }`} alt="..." />
             </div>
-            <Row justify="center" align="middle">
-                <Col xs={10} sm={8} lg={8} xl={8} >
+            <Row justify="center" align="middle" className='content-menu-row pc'>
+                <Col xs={10} sm={8} lg={8} xl={8}>
                     <a href="https://game.ryder365.com/">
                         <img src={menuSlot} className={css`width:100% ; 
                         &:hover,
@@ -43,7 +38,7 @@ function contentMenu() {
                     </a>
                 </Col>
                 <Col xs={10} sm={8} lg={8} xl={8}>
-                    <a href="https://game.ryder365.com/">
+                    <a href="https://game.ryder365.com/" >
                         <img src={menuCasino} className={css`width:100% ; 
                         &:hover,
                         :focus {
@@ -73,6 +68,58 @@ function contentMenu() {
                     </a>
                 </Col>
             </Row>
+
+
+            <div className='content-menu-row mb'>
+                <div className='content-menu-left'>
+                    <a href="https://game.ryder365.com/">
+                        <img src={menuSlot} className={css`width:100% ; 
+                        &:hover,
+                        :focus {
+                          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+                          transform: translateY(-0.50em);
+                        }`} alt="..." />
+                    </a>
+
+                    <a href="https://game.ryder365.com/" >
+                        <img src={menuCasino} className={css`width:100% ; 
+                        &:hover,
+                        :focus {
+                          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+                          transform: translateY(-0.50em);
+                        }`} alt="..." />
+                    </a>
+
+                    <a href="https://game.ryder365.com/" >
+                        <img src={menuPlayGame} className={css`width:100% ; 
+                        &:hover,
+                        :focus {
+                          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+                          transform: translateY(-0.50em);
+                        }`} alt="..." />
+                    </a>
+                </div>
+                <div className='content-menu-right'>
+                    <a href="https://game.ryder365.com/">
+                        <img src={menuSport} className={css`width:100% ; 
+                        &:hover,
+                        :focus {
+                          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+                          transform: translateY(-0.50em);
+                        }`} alt="..." />
+                    </a>
+
+
+                    <a href="https://game.ryder365.com/">
+                        <img src={menuLotto} className={css`width:100% ; 
+                        &:hover,
+                        :focus {
+                          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+                          transform: translateY(-0.50em);
+                        }`} alt="..." />
+                    </a>
+                </div>
+            </div>
         </>
     )
 }

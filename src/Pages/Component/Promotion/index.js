@@ -7,7 +7,6 @@ import PromotionCa2 from '../../../Assets/Images/Promotion/Cryder2.png'
 import PromotionCa3 from '../../../Assets/Images/Promotion/Cryder3.png'
 import PromotionCa4 from '../../../Assets/Images/Promotion/Cryder4.png'
 import PromotionCa5 from '../../../Assets/Images/Promotion/Cryder5.png'
-import PromotionCa6 from '../../../Assets/Images/Promotion/Cryder6.png'
 
 import PromotionLO1 from '../../../Assets/Images/Promotion/Loryder1.png'
 
@@ -16,6 +15,7 @@ import PromotionSL2 from '../../../Assets/Images/Promotion/Slryder2.png'
 import PromotionSL3 from '../../../Assets/Images/Promotion/Slryder3.png'
 import PromotionSL4 from '../../../Assets/Images/Promotion/Slryder4.png'
 import PromotionSL5 from '../../../Assets/Images/Promotion/Slryder5.png'
+import PromotionSL6 from '../../../Assets/Images/Promotion/Slryder6.png'
 
 import PromotionSP1 from '../../../Assets/Images/Promotion/SPryder1.png'
 import PromotionSP2 from '../../../Assets/Images/Promotion/SPryder2.png'
@@ -24,6 +24,11 @@ import PromotionSP4 from '../../../Assets/Images/Promotion/SPryder4.png'
 import PromotionSP5 from '../../../Assets/Images/Promotion/SPryder5.png'
 import PromotionSP6 from '../../../Assets/Images/Promotion/SPryder6.png'
 import PromotionSP7 from '../../../Assets/Images/Promotion/SPryder7.png'
+import PromotionSP8 from '../../../Assets/Images/Promotion/SPryder8.png'
+import PromotionSP9 from '../../../Assets/Images/Promotion/SPryder9.png'
+import PromotionSP10 from '../../../Assets/Images/Promotion/SPryder10.png'
+import PromotionSP11 from '../../../Assets/Images/Promotion/SPryder11.png'
+import PromotionSP12 from '../../../Assets/Images/Promotion/SPryder12.png'
 
 
 
@@ -57,10 +62,6 @@ export default function PromotionPage() {
             type: 'casino'
         },
         {
-            imageUrl: PromotionCa6,
-            type: 'casino'
-        },
-        {
             imageUrl: PromotionSP1,
             type: 'sport'
         },
@@ -89,6 +90,26 @@ export default function PromotionPage() {
             type: 'sport'
         },
         {
+            imageUrl: PromotionSP8,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSP9,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSP10,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSP11,
+            type: 'sport'
+        },
+        {
+            imageUrl: PromotionSP12,
+            type: 'sport'
+        },
+        {
             imageUrl: PromotionSL1,
             type: 'slot'
         },
@@ -107,6 +128,10 @@ export default function PromotionPage() {
 
         {
             imageUrl: PromotionSL5,
+            type: 'slot'
+        },
+        {
+            imageUrl: PromotionSL6,
             type: 'slot'
         },
         {
