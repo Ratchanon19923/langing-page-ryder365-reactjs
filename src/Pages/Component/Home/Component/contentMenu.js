@@ -13,7 +13,7 @@ function contentMenu() {
     return (
         <>
             <div className="text-menu ">
-                <img src={menuGame} className={css`width:40%;
+                <img src={menuGame} className={css`width:35%;
                         }`} alt="..." />
             </div>
             <Row justify="center" align="middle" className='content-menu-row pc'>

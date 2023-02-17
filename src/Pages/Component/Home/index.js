@@ -49,7 +49,7 @@ function Index() {
                 </div>
 
                 <Row justify="center" align="top">
-                    <Col xs={20} lg={10} className="carousel-mb"><CarouselCard /></Col>
+                    <Col xs={20} lg={9} className="carousel-mb"><CarouselCard /></Col>
                     <Col xs={22} lg={10}><ContentMenu /></Col>
                     <div className='mb mt-3 mx-3'>
                         <a href='https://lin.ee/VYUt69n' ><img src={Line} className={css`width:100%;
